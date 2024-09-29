@@ -13,7 +13,7 @@ import org.w3c.dom.NodeList;
 public class EjerA {
 
 	public static void main(String[] args) {
-		File file = new File("./DOM/XML/cd_catalog.xml");
+		File file = new File("C:\\Users\\Dennis\\DOM\\DOM\\DOM\\XML\\cd_catalog.xml");
 		try {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
